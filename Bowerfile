@@ -1,2 +1,2 @@
 asset 'bootstrap'
-asset 'font-awesome'
+asset 'font-awesome', '4.6.0'
