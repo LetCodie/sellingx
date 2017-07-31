@@ -1,2 +1,51 @@
-<h1>Welcome to SellingX!</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="row">
+  <div class="col-xs-12 col-md-3">
+    <ul class="list-unstyled hidden-xs hidden-sm">
+      <li><a href="#">Women’s Clothing</a></li>
+      <li><a href="#">Men’s Clothing</a></li>
+      <li><a href="#">Phones &amp; Accessories</a></li>
+      <li><a href="#">Computer &amp; Office</a></li>
+      <li><a href="#">Consumer Electronics</a></li>
+      <li><a href="#">Jewelry &amp; Watches</a></li>
+      <li><a href="#">Home &amp; Garden, Furniture</a></li>
+      <li><a href="#">Bags &amp; Shoes</a></li>
+      <li><a href="#">Toys, Kids &amp; Baby</a></li>
+      <li><a href="#">Sports &amp; Outdoors</a></li>
+      <li><a href="#">Health &amp; Beauty, Hair</a></li>
+      <li><a href="#">Automobiles &amp; Motorcycles</a></li>
+      <li><a href="#">Home Improvement</a></li>
+    </ul>
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+    <% 5.times.each do %>
+      <div class="card" style="border:1px solid #e4e4e4;padding:15px;margin-bottom:15px;border-radius:3px;background-color:white;">
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://via.placeholder.com/40x40" alt="...">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            <p>7mn</p>
+          </div>
+        </div>
+        <div class="card-description">
+          <p>NEW ARRIVAL AVAILABLE IN STORE
+            ✦WOMEN BOOMER JACKET (97083)
+            ✦ Price : 25.50$
+            ✦ Color : Same as picture
+            ✦ Size : XS, S, M</p>
+        </div>
+        <div class="card-media">
+          <img class="img-responsive img-thumbnail" src="https://s-media-cache-ak0.pinimg.com/736x/35/58/be/3558be7208ab4853aca2616f6909ea92--purple-hoodies-fall-clothes.jpg" alt="">
+        </div>
+      </div>
+      <% end %>
+  </div>
+
+  <div class="col-xs-12 col-md-3">
+    site nav
+  </div>
+</div>
