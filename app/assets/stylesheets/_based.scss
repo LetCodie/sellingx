@@ -1,0 +1,9 @@
+#input-search {
+  width: 44rem;
+}
+
+@media (max-width: 480px) { 
+  #input-search {
+    width: 24rem;
+  }
+}
