@@ -1,8 +1,13 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 #input-search {
   width: 44rem;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
   #input-search {
     width: 24rem;
   }

@@ -1,0 +1,10 @@
+// 10px gutter
+// http://arnique.net/web-design/58/a-quick-guide-to-changing-bootstraps-gutter-width/
+.gutter-10.row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
