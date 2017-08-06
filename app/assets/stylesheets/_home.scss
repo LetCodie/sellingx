@@ -8,3 +8,16 @@
   padding-right: 5px;
   padding-left: 5px;
 }
+
+
+.test span::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: asset-url('icons-set.png');
+  background-size: 166px 1954px;
+  background-position: 0 -1896px;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
