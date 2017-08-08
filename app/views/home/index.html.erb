@@ -131,9 +131,21 @@
           </div>
         </div>
 
-        <h2>Latest Post</h2>
-        <div class="row">
+        <div class="card" style="margin-top:10px;">
+          <div class="row">
+            <div class="col-xs-12">
+              <img class="img-responsive" src="http://www.forever21.com/images/en/20160704/promo-july-fourth.gif" alt="">
+            </div>
+          </div>
+        </div>
 
+        <div class="card" style="margin: 30px 0 -10px;">
+          <h4 class="card__header">
+            <span>Latest posts!</span>
+          </h4>
+        </div>
+
+        <div class="row">
           <% 20.times.each do %>
             <%
               img_url = [
@@ -154,6 +166,7 @@
             </div>
           <% end %>
         </div>
+
       </div>
 
       <div class="col-xs-12 col-md-3">
