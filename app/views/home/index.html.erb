@@ -1,6 +1,6 @@
 <div class="row gutter-10">
   <div class="col-xs-12 col-md-3">
-    <ul class="main-category list-unstyled hidden-xs" style="background-color:white;">
+    <ul class="card main-category list-unstyled hidden-xs" style="background-color:white;">
       <li>
         <span><a href="#">Women’s Clothing</a></span>
       </li>
@@ -59,19 +59,19 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img style="width:100%" src="http://serendipitycrystals.co.uk/wp-content/uploads/2014/02/Denbies960.jpg" alt="...">
+                  <img style="width:100%; height:343px;" src="https://uproxx.files.wordpress.com/2017/06/bexar-3.jpg?quality=100&w=650" alt="...">
                   <div class="carousel-caption">
                     test
                   </div>
                 </div>
                 <div class="item">
-                  <img style="width:100%" src="http://serendipitycrystals.co.uk/wp-content/uploads/2014/02/Denbies960.jpg" alt="...">
+                  <img style="width:100%; height:343px;" src="https://uproxx.files.wordpress.com/2017/06/bexar-3.jpg?quality=100&w=650" alt="...">
                   <div class="carousel-caption">
                     test
                   </div>
                 </div>
                 <div class="item">
-                  <img style="width:100%" src="http://serendipitycrystals.co.uk/wp-content/uploads/2014/02/Denbies960.jpg" alt="...">
+                  <img style="width:100%; height:343px;" src="https://uproxx.files.wordpress.com/2017/06/bexar-3.jpg?quality=100&w=650" alt="...">
                   <div class="carousel-caption">
                     test
                   </div>
@@ -91,55 +91,75 @@
           </div>
         </div>
 
-        <h2>Hot Deal!</h2>
-        <div class="row gutter-10">
-          <% 3.times.each do %>
-            <div class="col-xs-12 col-md-4">
-              <div class="thumbnail">
-                <img src="http://www.signatureholidays.co.in/images/karnataka/coorg/paddington-resort/green-fields-around-paddington-resort-coorg.jpg" alt="...">
-                <div class="caption">
-                  <h5>Thumbnail label</h5>
-                  <strong style="color:red">$5.00</strong>
+        <div class="card" style="margin-top:10px;">
+          <h4 class="card__header">
+            <span>Hot Deal!</span>
+          </h4>
+
+          <div class="row gutter-10">
+            <% 3.times.each do %>
+              <div class="col-xs-12 col-md-4">
+                <div class="thumbnail" style="margin-bottom:10px">
+                  <img src="http://www.signatureholidays.co.in/images/karnataka/coorg/paddington-resort/green-fields-around-paddington-resort-coorg.jpg" alt="...">
+                  <div class="caption">
+                    <h5>Thumbnail label</h5>
+                    <strong style="color:red">$5.00</strong>
+                  </div>
                 </div>
               </div>
-            </div>
-          <% end %>
+            <% end %>
+          </div>
         </div>
 
-        <h2>Hot hit!</h2>
-        <div class="row gutter-10">
-          <% 3.times.each do %>
-            <div class="col-xs-12 col-md-4">
-              <div class="thumbnail">
-                <img src="http://www.signatureholidays.co.in/images/karnataka/coorg/paddington-resort/green-fields-around-paddington-resort-coorg.jpg" alt="...">
-                <div class="caption">
-                  <h5>Thumbnail label</h5>
-                  <strong>$3.00</strong>
+        <div class="card" style="margin-top:10px;">
+          <h4 class="card__header">
+            <span>Hot Hit!</span>
+          </h4>
+
+          <div class="row gutter-10">
+            <% 3.times.each do %>
+              <div class="col-xs-12 col-md-4">
+                <div class="thumbnail" style="margin-bottom:10px">
+                  <img src="http://www.signatureholidays.co.in/images/karnataka/coorg/paddington-resort/green-fields-around-paddington-resort-coorg.jpg" alt="...">
+                  <div class="caption">
+                    <h5>Thumbnail label</h5>
+                    <strong style="color:red">$3.00</strong>
+                  </div>
                 </div>
               </div>
-            </div>
-          <% end %>
+            <% end %>
+          </div>
         </div>
 
         <h2>Latest Post</h2>
         <div class="row">
-          <% 10.times.each do %>
-          <div class="col-xs-12">
-            <div class="card" style="background-color: white;padding:5px;border-radius:3px;margin-bottom:10px;">
 
-              <img class="img-responsive" src="https://cdn.pixabay.com/photo/2013/08/11/03/40/corvette-171422_1280.jpg" alt="">
-              <h4>Lorem ipsum dolor sit amet... <strong class="pull-right" style="color:red;">$5.00</strong></h4>
+          <% 20.times.each do %>
+            <%
+              img_url = [
+                          "http://mtviewmirror.com/wp-content/uploads/2015/11/forever-21-dresses-3.jpg",
+                          "http://www.forever21.com/images/1_front_750/00213980-01.jpg",
+                          "https://s3cdn-lookbooknu.netdna-ssl.com/files/looks/medium/2011/12/10/1775671_nalookbook.jpg?1323523166",
+                          "http://s3cdn-lookbooknu.netdna-ssl.com/files/looks/large/2015/11/05/4735087_image.jpg?1446683602",
+                          "https://i.ytimg.com/vi/ld6vZMPKL9k/maxresdefault.jpg"
+                        ].sample
+            %>
+
+            <div class="col-xs-12">
+              <div class="card" style="background-color: white;padding:5px;border-radius:3px;margin-bottom:10px;">
+
+                <img class="img-responsive" src="<%= img_url %>" alt="">
+                <h4>Lorem ipsum dolor sit amet... <strong class="pull-right" style="color:red;">$5.00</strong></h4>
+              </div>
             </div>
-          </div>
           <% end %>
         </div>
       </div>
 
       <div class="col-xs-12 col-md-3">
-        <ul class="list-unstyled hidden-xs hidden-sm">
-          <li><img class="img-responsive" style="margin-bottom: 15px;" src="http://4.bp.blogspot.com/-WDBbarkwAEA/UWY2mpUG_-I/AAAAAAAABk4/UTlvtWU4KZM/s1600/1435.jpg" alt=""></li>
-          <li><img class="img-responsive" style="margin-bottom: 15px;" src="http://4.bp.blogspot.com/-WDBbarkwAEA/UWY2mpUG_-I/AAAAAAAABk4/UTlvtWU4KZM/s1600/1435.jpg" alt=""></li>
-        </ul>
+        <div class="card" style="padding: 5px">
+          <img class="img-responsive" style="height: 333px;" src="http://assets.rpgsite.net/images/images/000/000/088/boxart/211_eu_psp.jpg" alt="">
+        </div>
       </div>
     </div>
 
