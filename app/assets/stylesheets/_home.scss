@@ -4,7 +4,9 @@
   margin-right: -5px;
   margin-left: -5px;
 }
-.gutter-10 [class^="col-"], .gutter-10 [class^=" col-"] {
+
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"],
+.slick-slide {
   padding-right: 5px;
   padding-left: 5px;
 }
