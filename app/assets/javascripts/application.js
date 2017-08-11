@@ -9,5 +9,14 @@ $(document).ready(function(){
     arrows: false,
     autoplay: true,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 });
