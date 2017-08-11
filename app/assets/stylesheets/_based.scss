@@ -7,6 +7,24 @@ body {
   width: 44rem;
 }
 
+
+.brand {
+  display: inline-block;
+  padding-top: 7px;
+  color: #383838;
+  font-size: 1.4em;
+
+  img {
+    width: 34px;
+    margin-right: 1px;
+    vertical-align: middle;
+  }
+
+  span {
+    vertical-align: sub;
+  }
+}
+
 .card {
   background:white;
   padding:10px;
@@ -45,5 +63,9 @@ body {
 
   #input-search {
     width: 24rem;
+  }
+
+  .brand {
+    margin-left: 15px;
   }
 }
