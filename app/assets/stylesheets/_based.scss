@@ -25,9 +25,24 @@ body {
     padding: 5px 28px 5px 0;
     border-bottom: 2px solid #ddd;
   }
+
+  &__product-title {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    width: 98.42%;
+    color: white;
+    background: rgba(0,0,0,0.3);
+  }
 }
 
 @media (max-width: 480px) {
+  .card__product-title {
+    width: 97.29%;
+  }
+
   #input-search {
     width: 24rem;
   }
