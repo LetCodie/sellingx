@@ -29,10 +29,10 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="brand" href="#">
+          <%= link_to root_path, class: 'brand' do %>
             <%= image_tag "cart.png" %>
             <span>SellingX</span>
-          </a>
+          <% end %>
         </div>
         <div id="navbar" class="collapse navbar-collapse text-center">
           <form class="navbar-form" style="display:inline-block;">
