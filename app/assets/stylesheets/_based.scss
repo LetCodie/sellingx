@@ -56,13 +56,25 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+  #input-search {
+    width: 24rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #input-search {
+    width: 100%;
+  }
+}
+
 @media (max-width: 480px) {
   .card__product-title {
     width: 97.29%;
   }
 
   #input-search {
-    width: 24rem;
+    width: 100%;
   }
 
   .brand {
