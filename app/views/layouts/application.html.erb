@@ -39,7 +39,7 @@
             <div class="input-group">
               <input type="text" class="form-control" id="input-search" placeholder="I'm looking for ..." aria-describedby="sizing-addon1">
               <span class="input-group-btn">
-                <button class="btn btn-default" type="button">Go!</button>
+                <%= link_to "Go!", search_products_path, class: 'btn btn-default' %>
               </span>
             </div>
           </form>
