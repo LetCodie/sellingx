@@ -228,6 +228,55 @@
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="modalEle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-lg vertical-align-center" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/511881_010_A_PREM/roshe-one-mens-shoe.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-7">
+                  <h1>Poyatu Headphone Case for Bose QC15 QC25 QC35 AE2 AE2i SoundTrue Around-Ear Headphones Hard Shoulder Strap Carry Case Box</h1>
+                  <ul>
+                    <li>Price: $ 11800</li>
+                    <li>Model: 2017</li>
+                    <li>Size: 42</li>
+                    <li>Shipping: Free Shipping to Vietnam via China Post Registered Air Mail Estimated Delivery Time:21-39days</li>
+                    <li>Total Price: US $10.83</li>
+                  </ul>
+
+                  <div style="margin-bottom: 50px;">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Product Detail</a></li>
+                      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Feedback</a></li>
+                      <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Seller info</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div role="tabpanel" class="tab-pane active" id="home">
+                        product detail
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="profile">
+                        feedback
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="messages">
+                        Contact Information
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <% 20.times.each do %>
       <% img_url = ["strobe/wp-content/uploads/2017/05/02-2.jpg",
                     "lime/wp-content/uploads/2017/05/06-1.jpg",
@@ -237,9 +286,10 @@
       <div class="card" style="margin-bottom: 5px;">
         <div class="row gutter-10">
           <div class="col-xs-12 col-sm-6 col-md-5">
-            <a href="#">
+            <a href="#" data-toggle="modal" data-target="#modalEle" style="outline:none;">
               <img class="img-responsive" src="//demo.joinwebs.com/classiera/<%= img_url %>" alt="...">
             </a>
+
           </div>
 
           <div class="col-xs-12 col-sm-6 col-md-7">
@@ -249,25 +299,6 @@
             </h4>
             <p class="pro-category" style="color:#b7b7b7;font-style:italic;">Category: automobiles</p>
             <p>ផ្ទះ118 ផ្លូវ 230 សង្កា​ត់ផ្សារដើមគ ខណ្ឌទូលគោក ភ្នំព​េញ(ចំងាយប្រហែល 130 ម៉ែតព​ីស្តុបកោសដូង ជាប់នឹងរបង ម៉ុង ឌីយ...... </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="card hidden" style="margin-bottom: 5px;">
-        <div class="media">
-          <div class="media-left media-middle">
-            <a href="#">
-              <img style="width: 380px" class="media-object" src="//demo.joinwebs.com/classiera/<%= img_url %>" alt="...">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading" style="position:relative;color:#8080d8">
-              Huawei P10 Gold,Black,Blue Color Launched in Cambodia
-              <span class="visible-lg" style="color: red;font-weight: bold;position: absolute;right: 0;top: 0;">$ 5.00</span>
-            </h4>
-            <p class="pro-category" style="color:#b7b7b7;font-style:italic;">Category: automobiles</p>
-            <p>ផ្ទះ118 ផ្លូវ 230 សង្កា​ត់ផ្សារដើមគ ខណ្ឌទូលគោក ភ្នំព​េញ(ចំងាយប្រហែល 130 ម៉ែតព​ីស្តុបកោសដូង ជាប់នឹងរបង ម៉ុង ឌីយ...... </p>
-
           </div>
         </div>
       </div>
