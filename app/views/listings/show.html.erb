@@ -1,33 +1,48 @@
-<div class="row">
+
+<div class="row gutter-10">
   <div class="col-xs-12 col-md-3">
-    <ul class="list-unstyled hidden">
-      <li><a href="#">Women’s Clothing</a></li>
-      <li><a href="#">Men’s Clothing</a></li>
-      <li><a href="#">Phones &amp; Accessories</a></li>
-      <li><a href="#">Computer &amp; Office</a></li>
-      <li><a href="#">Consumer Electronics</a></li>
-      <li><a href="#">Jewelry &amp; Watches</a></li>
-      <li><a href="#">Home &amp; Garden, Furniture</a></li>
-      <li><a href="#">Bags &amp; Shoes</a></li>
-      <li><a href="#">Toys, Kids &amp; Baby</a></li>
-      <li><a href="#">Sports &amp; Outdoors</a></li>
-      <li><a href="#">Health &amp; Beauty, Hair</a></li>
-      <li><a href="#">Automobiles &amp; Motorcycles</a></li>
-      <li><a href="#">Home Improvement</a></li>
-    </ul>
-    <img src="http://www.proflowers.com/blog/wp-content/plugins/pf-flowertypes/image/flower-197343.jpg" class="img-responsive img-thumbnail" alt="">
-    <h1>Online clothes</h1>
-    <ul class="list-unstyled">
-      <li><a href="#">All products</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Galleries</a></li>
-      <li><a href="#">Contact us</a></li>
-    </ul>
+    <div class="filter-category">
+      <h1 class="header">
+        <i class="ico-category"></i>
+        REFINE BY CATEGORY
+      </h1>
+      <ul class="menu list-unstyled">
+        <li><a href="#">All Results</a></li>
+        <li><a href="#">Mobiles & Tablets (37)</a></li>
+        <li><a href="#">Computers & Laptops (29)</a></li>
+        <li><a href="#">TV, Audio / Video, Gaming & Wearables (78)</a></li>
+        <li><a href="#">Cameras (31)</a></li>
+        <li>...</li>
+        <li><a href="#" class="show-more">See More</a></li>
+      </ul>
+
+      <h1 class="header">
+        BRAND
+      </h1>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+
+          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+        </span>
+      </div>
+
+      <div class="brand-list">
+        <ul class="list-unstyled">
+          <li><input type="checkbox">&nbsp;Lequip (23)</li>
+          <li><input type="checkbox">&nbsp;Samsung (31)</li>
+          <li><input type="checkbox">&nbsp;LINE FRIENDS (30)</li>
+          <li><input type="checkbox">&nbsp;KitchenArt (29)</li>
+          <li><input type="checkbox">&nbsp;Happy call (24)</li>
+          <li><input type="checkbox">&nbsp;Yujin (21)</li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <div class="col-xs-12 col-md-6">
     <% 5.times.each do %>
-      <div class="card" style="border:1px solid #e4e4e4;padding:15px;margin-bottom:15px;border-radius:3px;background-color:white;">
+      <div class="card" style="margin-bottom: 5px;">
         <div class="media">
           <div class="media-left">
             <a href="#">
@@ -54,9 +69,27 @@
   </div>
 
   <div class="col-xs-12 col-md-3">
-    <div class="panel panel-default">
+    <div class="panel panel-default" style="margin-bottom: 5px;">
       <div class="panel-heading">Member Status</div>
       <div class="panel-body">
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="http://www.proflowers.com/blog/wp-content/plugins/pf-flowertypes/image/flower-197343.jpg" style="width:48px" alt="...">
+            </a>
+          </div>
+
+          <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <p style="font-size: 12px;color: #7d7d7d;font-style: italic;">Seller's Products: Best Prices In Singapore</p>
+          </div>
+        </div>
+
         <ul>
           <li>Online Status: Offline</li>
           <li>Member Type: Premium</li>
