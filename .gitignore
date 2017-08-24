@@ -24,9 +24,5 @@
 secret.txt
 vendor/assets/bower_components
 .DS_Store
-<<<<<<< ba9d3a9c90a4b5cce542c2616cc66c26dd8dee32
 _concept.md
 _todo.md
-=======
-_*
->>>>>>> exclude privates
