@@ -16,27 +16,23 @@
         <li><a href="#" class="show-more">See More</a></li>
       </ul>
 
-      <h1 class="header">
-        BRAND
-      </h1>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search for...">
-        <span class="input-group-btn">
+      <div class="interesting">
+        <h1 class="header">
+          <i class="ico-category"></i>
+          INTERESTING POSTS
+        </h1>
 
-          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-        </span>
-      </div>
-
-      <div class="brand-list">
-        <ul class="list-unstyled">
-          <li><input type="checkbox">&nbsp;Lequip (23)</li>
-          <li><input type="checkbox">&nbsp;Samsung (31)</li>
-          <li><input type="checkbox">&nbsp;LINE FRIENDS (30)</li>
-          <li><input type="checkbox">&nbsp;KitchenArt (29)</li>
-          <li><input type="checkbox">&nbsp;Happy call (24)</li>
-          <li><input type="checkbox">&nbsp;Yujin (21)</li>
+        <ul class="list-unstyled list">
+          <% 9.times.each do %>
+            <li style="margin-bottom: 3px;">
+              <a href="#">
+                <img class="media-object" src="http://via.placeholder.com/90x90" alt="...">
+              </a>
+            </li>
+          <% end %>
         </ul>
       </div>
+
     </div>
   </div>
 

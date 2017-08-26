@@ -2,6 +2,7 @@
   .header {
     margin: 0;
     font-size: 15px;
+    margin-bottom: 15px;
   }
   .menu {
     margin-top: 15px;
@@ -27,5 +28,19 @@
     background-position: 0 -663px;
     vertical-align: sub;
     margin-right: 5px;
+  }
+}
+
+.interesting {
+  .header {
+    margin-top:40px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // flex-flow: row wrap;
+    justify-content: space-between;
   }
 }
