@@ -45,9 +45,11 @@
             </div>
           </form>
 
+
+
           <ul class="nav navbar-nav navbar-right" style="margin-right:0">
             <li>
-              <%= link_to 'Join FREE!', accounts_register_path, id: "join-free-btn" %>
+              <%= link_to 'Join FREE!', "#", id: "join-free-btn", data: { toggle: 'modal', target: '#modalEle' } %>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -57,7 +59,7 @@
     <div class="container">
         <%= yield %>
     </div>
-
+    <%= render "shared/modal_box" %>
     <%= javascript_include_tag 'application' %>
   </body>
 </html>

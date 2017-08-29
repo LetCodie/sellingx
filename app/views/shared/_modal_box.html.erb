@@ -1,0 +1,38 @@
+<div class="modal fade" id="modalEle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="vertical-alignment-helper">
+    <div class="modal-dialog modal-lg vertical-align-center" role="document">
+      <div class="modal-content" style="min-height: 350px">
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-md-8">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#login" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
+                  <li role="presentation"><a href="#register" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="login">
+                    <%= render 'shared/form_login' %>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="register">
+                    <%= render 'shared/form_reg' %>
+                  </div>
+                </div>
+
+                <ol class="hidden">
+                  <li>show login and register form as tab</li>
+                  <li>login with facebook</li>
+                  <li>forget password</li>
+                </ol>
+              </div>
+              <div class="col-md-4">
+                Advantage to be a membership
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
