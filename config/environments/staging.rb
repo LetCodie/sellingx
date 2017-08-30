@@ -32,6 +32,8 @@ Rails.application.configure do
   config.assets.compile = true
   config.assets.precompile =  ['*.js', '*.css', '*.css.erb']
 
+  config.action_mailer.default_url_options = { host: '52.77.228.127', port: 80 }
+
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
