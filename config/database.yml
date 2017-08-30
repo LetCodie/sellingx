@@ -17,7 +17,7 @@ staging:
   pool: 5
   database: sellingx_db_staging
   username: sellingx_admin
-  password: "@SellingX#168"
+  password: @SellingX#168
 
 production:
   <<: *default
