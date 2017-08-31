@@ -76,6 +76,10 @@ body {
   margin-top: 40px;
 }
 
+#input-search {
+  border-right-width: 0;
+}
+
 @media (max-width: 992px) {
   #input-search {
     width: 24rem;
